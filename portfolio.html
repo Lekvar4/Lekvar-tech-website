@@ -18,7 +18,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
-<li><a href="#projects">Projects</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -32,14 +32,22 @@
             <a href="#services" class="btn-primary">Explore Our Services</a>
         </div>
     </section>
-    
+
+<section id="reviews-section" style="display: flex; flex-direction: column; align-items: center; margin: 40px auto;">
+    <h2>Hear from Our Happy Clients!</h2>
+    <div id="review-container" style="background-color: black; padding: 20px; border-radius: 10px; max-width: 300px; text-align: center; margin: 20px auto;">
+        <p id="review-text" style="color: white; font-size: 0.9rem; margin-bottom: 10px;"></p>
+        <p id="client-name" style="color: green; font-size: 0.8rem; font-weight: bold;"></p>
+    </div>
+</section>
+
     <section id="about" class="about">
         <div class="container">
             <h2>About Us</h2>
             <p>We are a passionate web development agency delivering cutting-edge websites that cater to your business needs. From initial concept to final launch, we guide you every step of the way.</p>
         </div>
     </section>
-    
+
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
@@ -59,7 +67,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="testimonials" class="testimonials">
         <div class="container">
             <h2>What Our Clients Say</h2>
@@ -88,99 +96,59 @@
         </div>
     </section>
 
-<section id="projects" class="projects">
-    <div class="container">
-        <h2>Projects</h2>
-        <p>Here are some of the innovative and responsive websites we’ve worked on:</p>
-        <div class="projects-grid">
-            <!-- Project 1: Modern Blog Design -->
-            <div class="projects-item">
-                <a href="https://cupofjo.com" target="_blank">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTGgCL7u15hbBUsfS2VKR-9TYMPUiIiBFpiwmgNn7uxKdDiukCl6PFGpX&s=10" alt="Cup of Jo Blog" style="width: 100%; height: auto;">
-                </a>
-                <h3>Modern Blog Design</h3>
-                <p>Responsive blogging platform optimized for reading and sharing articles.</p>
-                <a href="https://cupofjo.com" target="_blank" class="btn-primary">View Project</a>
-            </div>
-            
-            <!-- Project 2: E-Commerce Store -->
-            <div class="projects-item">
-                <a href="https://www.crateandbarrel.com" target="_blank">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH_qyD6FcDbIfrvzbNiqfuAcjFvh4q2ZkDsK6W7LOgC44yyr87cYm6-4OU&s=10" alt="Crate and Barrel E-Commerce" style="width: 100%; height: auto;">
-                </a>
-                <h3>E-Commerce Store</h3>
-                <p>A clean and functional online shop with a seamless checkout experience.</p>
-                <a href="https://www.crateandbarrel.com" target="_blank" class="btn-primary">View Project</a>
-            </div>
-            
-            <!-- Project 3: Corporate Website -->
-            <div class="projects-item">
-                <a href="https://www.gpe.co.uk" target="_blank">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqNwC6NvvRVlq-KcmTbXn6mPzkk3lOgLN6X3lbYlLHbazXW8GyV2GrCss&s=10" alt="GPE Corporate Website" style="width: 100%; height: auto;">
-                </a>
-                <h3>Corporate Website</h3>
-                <p>Professional website designed for a corporate brand’s online presence.</p>
-                <a href="https://www.gpe.co.uk" target="_blank" class="btn-primary">View Project</a>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Here are some of the innovative and responsive websites we’ve worked on:</p>
+            <div class="projects-grid">
+                <div class="projects-item">
+                    <a href="https://cupofjo.com" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTGgCL7u15hbBUsfS2VKR-9TYMPUiIiBFpiwmgNn7uxKdDiukCl6PFGpX&s=10" alt="Cup of Jo Blog" style="width: 100%; height: auto;">
+                    </a>
+                    <h3>Modern Blog Design</h3>
+                    <p>Responsive blogging platform optimized for reading and sharing articles.</p>
+                    <a href="https://cupofjo.com" target="_blank" class="btn-primary">View Project</a>
+                </div>
+                
+                <div class="projects-item">
+                    <a href="https://www.crateandbarrel.com" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH_qyD6FcDbIfrvzbNiqfuAcjFvh4q2ZkDsK6W7LOgC44yyr87cYm6-4OU&s=10" alt="Crate and Barrel E-Commerce" style="width: 100%; height: auto;">
+                    </a>
+                    <h3>E-Commerce Store</h3>
+                    <p>A clean and functional online shop with a seamless checkout experience.</p>
+                    <a href="https://www.crateandbarrel.com" target="_blank" class="btn-primary">View Project</a>
+                </div>
+                
+                <div class="projects-item">
+                    <a href="https://www.gpe.co.uk" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqNwC6NvvRVlq-KcmTbXn6mPzkk3lOgLN6X3lbYlLHbazXW8GyV2GrCss&s=10" alt="GPE Corporate Website" style="width: 100%; height: auto;">
+                    </a>
+                    <h3>Corporate Website</h3>
+                    <p>Professional website designed for a corporate brand’s online presence.</p>
+                    <a href="https://www.gpe.co.uk" target="_blank" class="btn-primary">View Project</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-   <!-- Contact Section -->
-<section id="contact" class="contact">
-    <div class="container">
-        <h2>Contact Us</h2>
-        <form id="contactForm">
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn-primary">Send Message</button>
-        </form>
-        <!-- Success Message -->
-        <div id="successMessage" style="display: none; text-align: center; padding: 20px; background-color: #4CAF50; color: white;">
-            <h3>Thank you for reaching out! We will get back to you shortly.</h3>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div id="successMessage" style="display: none; text-align: center; padding: 20px; background-color: #4CAF50; color: white;">
+                <h3>Thank you for reaching out! We will get back to you shortly.</h3>
+            </div>
+            <div id="errorMessage" style="display: none; text-align: center; padding: 20px; background-color: #F44336; color: white;">
+                <h3>Oops! Something went wrong. Please try again later.</h3>
+            </div>
         </div>
-        <!-- Error Message -->
-        <div id="errorMessage" style="display: none; text-align: center; padding: 20px; background-color: #F44336; color: white;">
-            <h3>Oops! Something went wrong. Please try again later.</h3>
-        </div>
-    </div>
-</section>
+    </section>
 
-<script>
-    document.getElementById("contactForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent default form submission
-
-        // Get form data
-        const formData = new FormData(event.target);
-
-        // Send form data using Fetch API
-        fetch("https://formspree.io/f/xjkkprdq", {
-            method: "POST",
-            body: formData,
-            headers: {
-                "Accept": "application/json"
-            }
-        })
-        .then(response => {
-            if (response.ok) {
-                // Hide the form and show the success message
-                document.getElementById("contactForm").style.display = "none";
-                document.getElementById("successMessage").style.display = "block";
-            } else {
-                // Show error message if response is not OK
-                document.getElementById("errorMessage").style.display = "block";
-            }
-        })
-        .catch(() => {
-            // Show error message in case of a network or other issue
-            document.getElementById("errorMessage").style.display = "block";
-        });
-    });
-</script>
-
-
-    <!-- Privacy Policy Section -->
     <section id="privacy-policy" class="privacy-policy">
         <div class="container">
             <h2>Privacy Policy</h2>
@@ -194,7 +162,6 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
             <p>© 2025 Lekvar Tech. All rights reserved.</p>
@@ -209,5 +176,30 @@
             <a href="#privacy-policy" class="privacy-policy-link">Privacy Policy</a>
         </div>
     </footer>
+
+    <script>
+        const reviews = [
+    { text: "Amazing service, very satisfied with the results!", name: "Emma Johnson" },
+    { text: "Highly recommend, the team was very professional and helpful!", name: "Michael Williams" },
+    { text: "Great experience, exceeded my expectations!", name: "Sophia Brown" },
+    { text: "The best service I've had in years. I’ll definitely come back!", name: "James Taylor" },
+    { text: "Absolutely fantastic, would recommend to anyone!", name: "Olivia Martinez" },
+    { text: "I’m thrilled with the outcome, amazing work!", name: "Liam Anderson" }
+];
+
+let currentReviewIndex = 0;
+
+function showReview() {
+    const review = reviews[currentReviewIndex];
+    document.getElementById('review-text').textContent = `"${review.text}"`;
+    document.getElementById('client-name').textContent = `- ${review.name}`;
+    
+    currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+}
+
+setInterval(showReview, 1000); // Change reviews every 1 second
+showReview();
+    </script>
+
 </body>
 </html>
