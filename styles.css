@@ -558,8 +558,8 @@ body {
 
 .projects-item .btn-primary {
     display: inline-block;
-    background-color: #007bff;
-    color: white;
+    background-color: #28a745; /* Green color */
+    color: white; /* White text */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -568,7 +568,7 @@ body {
 }
 
 .projects-item .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #218838; /* Darker green on hover */
     transform: scale(1.05);
 }
 
